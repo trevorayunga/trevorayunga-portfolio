@@ -1,0 +1,169 @@
+
+/* ---------- Header / Nav ---------- */
+ 
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+ 
+.nav {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+ 
+.nav-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+ 
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav-links a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+ 
+.nav-links a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+* ---------- Layout ---------- */
+ 
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+ 
+.section {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+ 
+.section:last-of-type {
+  border-bottom: none;
+}
+ 
+.section h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 1.25rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--accent);
+}
+
+* ---------- About ---------- */
+ 
+.about {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  padding-top: 3.5rem;
+}
+ 
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+ 
+.about-text h1 {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  margin: 0 0 0.6rem;
+}
+ 
+.about-text p {
+  margin: 0;
+  max-width: 60ch;
+  color: var(--ink-soft);
+}
+ 
+@media (max-width: 560px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text p {
+    max-width: none;
+  }
+}
+
+* ---------- Skills ---------- */
+ 
+.skills-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+ 
+.skills-list li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+ 
+/* ---------- Projects ---------- */
+ 
+.projects-list {
+  display: grid;
+  gap: 1rem;
+}
+ 
+.project-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+}
+ 
+.project-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem;
+}
+ 
+.project-card p {
+  margin: 0 0 0.75rem;
+  color: var(--ink-soft);
+}
+ 
+.project-tech {
+  font-size: 0.82rem;
+  color: var(--gold);
+  border-top: 1px dashed var(--border);
+  padding-top: 0.6rem;
+  margin: 0;
+}
+ 
+ 

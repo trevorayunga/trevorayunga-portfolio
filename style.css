@@ -102,7 +102,9 @@ main {
  
 .about {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1.75rem;
   padding-top: 3.5rem;
 }
@@ -121,11 +123,15 @@ main {
   font-size: 1.9rem;
   margin: 0 0 0.6rem;
 }
+.about-text{
+  text-align: center;
+}
  
 .about-text p {
-  margin: 0;
+  margin: 0 auto;
   max-width: 60ch;
   color: var(--ink-soft);
+  text-align: center;
 }
  
 @media (max-width: 560px) {

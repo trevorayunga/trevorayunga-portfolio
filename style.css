@@ -119,6 +119,10 @@ main {
   border: 1px solid var(--border);
   background: var(--surface);
   flex-shrink: 0;
+  display: block;        
+  margin: 0 auto;        
+  object-fit: cover;     
+  object-position: center;
 }
  
 .about-text h1 {

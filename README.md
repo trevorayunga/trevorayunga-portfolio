@@ -1,6 +1,7 @@
 A single-page personal portfolio site built with plain HTML, CSS, and JavaScript.
 
 Live Demo
+https://trevorayunga.github.io/trevorayunga-portfolio/
 
 
 Features

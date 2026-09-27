@@ -107,6 +107,9 @@ main {
   text-align: center;
   gap: 1.75rem;
   padding-top: 3.5rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: center;
 }
  
 .avatar {

@@ -18,6 +18,18 @@ No frameworks — vanilla HTML/CSS/JS only
 Technologies Used
 HTML
 CSS (custom properties, flexbox, grid)
-
 JavaScript (DOM APIs, for...of loops, arrays of objects)
+
+What I Learned
+
+Structuring skills and projects as JavaScript data rather than hardcoding them into the HTML made the page far easier to update — adding a new project is now a one-line change to an array instead of editing markup. It also reinforced how much cleaner document.createElement + append is than building HTML strings by hand.
+
+
+
+How to Run Locally
+Clone the repo:
+   git clone https://github.com/trevorayunga/trevorayunga-portfolio
+   cd portfolio
+Open index.html directly in a browser, or serve it locally:
+  open with live server
 
